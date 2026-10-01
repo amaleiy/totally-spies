@@ -1,0 +1,179 @@
+[
+  {
+    "name": "GitHub",
+    "url": "https://github.com/{}",
+    "check_type": "status_code",
+    "match_code": 200,
+    "error_code": 404,
+    "category": "code",
+    "icon": "github"
+  },
+  {
+    "name": "Reddit",
+    "url": "https://www.reddit.com/user/{}",
+    "check_type": "status_code",
+    "match_code": 200,
+    "error_code": 404,
+    "category": "social",
+    "icon": "reddit"
+  },
+  {
+    "name": "GitLab",
+    "url": "https://gitlab.com/{}",
+    "check_type": "status_code",
+    "match_code": 200,
+    "error_code": 404,
+    "category": "code",
+    "icon": "gitlab"
+  },
+  {
+    "name": "Telegram",
+    "url": "https://t.me/{}",
+    "check_type": "message",
+    "error_msg": "If you have <strong>Telegram</strong>, you can contact",
+    "category": "chat",
+    "icon": "send"
+  },
+  {
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com/user?id={}",
+    "check_type": "message",
+    "error_msg": "No such user.",
+    "category": "tech",
+    "icon": "terminal"
+  },
+  {
+    "name": "Steam",
+    "url": "https://steamcommunity.com/id/{}",
+    "check_type": "message",
+    "error_msg": "The specified profile could not be found",
+    "category": "gaming",
+    "icon": "gamepad-2"
+  },
+  {
+    "name": "DockerHub",
+    "url": "https://hub.docker.com/v2/users/{}",
+    "check_type": "status_code",
+    "match_code": 200,
+    "error_code": 404,
+    "category": "tech",
+    "icon": "container"
+  },
+  {
+    "name": "PyPI",
+    "url": "https://pypi.org/user/{}",
+    "check_type": "status_code",
+    "match_code": 200,
+    "error_code": 404,
+    "category": "code",
+    "icon": "package"
+  },
+  {
+    "name": "NPM",
+    "url": "https://www.npmjs.com/~{}",
+    "check_type": "status_code",
+    "match_code": 200,
+    "error_code": 404,
+    "category": "code",
+    "icon": "box"
+  },
+  {
+    "name": "Medium",
+    "url": "https://medium.com/@{}",
+    "check_type": "status_code",
+    "match_code": 200,
+    "error_code": 404,
+    "category": "blog",
+    "icon": "book-open"
+  },
+  {
+    "name": "DeviantArt",
+    "url": "https://www.deviantart.com/{}",
+    "check_type": "status_code",
+    "match_code": 200,
+    "error_code": 404,
+    "category": "media",
+    "icon": "palette"
+  },
+  {
+    "name": "Keybase",
+    "url": "https://keybase.io/{}",
+    "check_type": "status_code",
+    "match_code": 200,
+    "error_code": 404,
+    "category": "crypto",
+    "icon": "key"
+  },
+  {
+    "name": "Pastebin",
+    "url": "https://pastebin.com/u/{}",
+    "check_type": "status_code",
+    "match_code": 200,
+    "error_code": 404,
+    "category": "tech",
+    "icon": "file-text"
+  },
+  {
+    "name": "Soundcloud",
+    "url": "https://soundcloud.com/{}",
+    "check_type": "status_code",
+    "match_code": 200,
+    "error_code": 404,
+    "category": "media",
+    "icon": "music"
+  },
+  {
+    "name": "Vimeo",
+    "url": "https://vimeo.com/{}",
+    "check_type": "status_code",
+    "match_code": 200,
+    "error_code": 404,
+    "category": "media",
+    "icon": "video"
+  },
+  {
+    "name": "Chess.com",
+    "url": "https://api.chess.com/pub/player/{}",
+    "check_type": "status_code",
+    "match_code": 200,
+    "error_code": 404,
+    "category": "gaming",
+    "icon": "award"
+  },
+  {
+    "name": "Replit",
+    "url": "https://replit.com/@{}",
+    "check_type": "status_code",
+    "match_code": 200,
+    "error_code": 404,
+    "category": "code",
+    "icon": "code"
+  },
+  {
+    "name": "Bandcamp",
+    "url": "https://bandcamp.com/{}",
+    "check_type": "status_code",
+    "match_code": 200,
+    "error_code": 404,
+    "category": "media",
+    "icon": "headphones"
+  },
+  {
+    "name": "Pinterest",
+    "url": "https://www.pinterest.com/{}/",
+    "check_type": "status_code",
+    "match_code": 200,
+    "error_code": 404,
+    "category": "social",
+    "icon": "image"
+  },
+  {
+    "name": "ProductHunt",
+    "url": "https://www.producthunt.com/@{}",
+    "check_type": "status_code",
+    "match_code": 200,
+    "error_code": 404,
+    "category": "tech",
+    "icon": "compass"
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "api_keys": {
+    "shodan": "",
+    "dehashed": "",
+    "hunter_io": "",
+    "hibp": "",
+    "github_pat": "",
+    "virustotal": ""
+  },
+  "scanner": {
+    "concurrency_limit": 12,
+    "request_timeout": 15,
+    "stealth_delay_ms": 100,
+    "user_agent_profile": "woohp_tactical",
+    "proxy_enabled": false,
+    "proxy_type": "socks5",
+    "proxy_host": "127.0.0.1:9050",
+    "verify_ssl": true,
+    "follow_redirects": true
+  },
+  "interface": {
+    "theme": "amber",
+    "neon_glow": "subtle",
+    "radar_animations": true,
+    "sound_effects": true,
+    "auto_refresh_interval": 10,
+    "telemetry_stream": true
+  },
+  "notifications": {
+    "alert_on_breach": true,
+    "alert_on_cve": true,
+    "alert_on_scan_completion": true
+  }
+}
