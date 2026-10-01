@@ -105,7 +105,7 @@ Each investigation dossier features 6 synchronized views sharing the same underl
 
 #### 1. Clone Repository:
 ```bash
-git clone https://github.com/your-username/totally-spies.git
+git clone https://github.com/amaleiy/totally-spies.git
 cd totally-spies
 ```
 
